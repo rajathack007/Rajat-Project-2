@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://cdn.theatlantic.com/assets/media/img/photo/2011/04/india-wins-2011-cricket-world-cup/c02_RTR2KJW1/main_1200.jpg?1420521741');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid ;
+      border-radius: 40px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+       background-color:green;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+     
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    body{
+      background-color:yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrH6ejpHyvcuXyhBtBVlTAXUXJJj5S8DJRguC6vjxB6FYWex7Ndg">
+    <h1>Cricket Blog</h1>
+    <ul>
+      <li><a href="https://blog.feedspot.com/cricket_blogs/">About Me</a></li>
+      <li><a href="http://www.cricketworld.com/">Cricket News</a></li>
+      <li><a href="http://www.cricbuzz.com/">Cricket score</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>History Of Cricket</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoFsf7PUYH-MIbKIE_doZoRwW5pqJS3nekpdVdEAAZ9hv9g7PHVQ">
+    <p>The sport of cricket has a known history beginning in the late 16th century. Having originated in south-east England, it became the country's national sport in the 18th century and has developed globally in the 19th and 20th centuries.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>1983 World Cup: Miracle at Lord's</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZjuXsrIAMjQnH_l8ehTdYBRPoQ0CWCcAHiLlL4uC7Ax6NRbbGbg">
+    <p>There are moments in sporting history that live forever. Indian Cricket Captain Kapil Dev holding aloft the Prudential World Cup on the balcony at Lord's in London or gleefully spraying champagne on the frenzied crowds below is one of them.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>2011 Cricket World Cup</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbvqS-jGFuM4u5hgYiHmq2Npp-ykJB3bUVhouqbha5LFG39Ndc">
+    <p>India won the Cricket World Cup Saturday, beating Sri Lanka by six wickets in Mumbai and sending this cricket-mad nation into a frenzy on a day that will be remembered as one of the greatest in its history.Dhoni scored 91 runs not out in a sublime innings that earned him the man-of-the-match award. He was partnered at the end by Yuvraj Singh, who was voted man of the tournament. But it was the captain's 109-run partnership with Gautam Gambhir that secured victory for India. Gambhir was tantalizingly close to a World Cup final century before being bowled on 97 runs by Sri Lanka's Thisara Perera.
+
+India, like Sri Lanka, had won the World Cup once before. India's other victory came at Lords in England in 1983, a date so deeply etched in the nation's memory that survey takers in the recently completed Census 2011 were advised to ask people who couldn't provide a birth date whether they were born before or after that World Cup victory.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
